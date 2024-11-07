@@ -1,0 +1,2 @@
+xadc_wiz_1.v,verilog,xil_defaultlib,../../../../lab5.gen/sources_1/ip/xadc_wiz_1/xadc_wiz_1.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,25 @@
+Vivado Simulator v2024.1.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot lab_5_top_level_students_behav xil_defaultlib.lab_5_top_level_students xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'in2' [C:/Users/User/lab5/lab_5_top_level_students.sv:66]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.bin_to_bcd
+Compiling module unisims_ver.XADC(INIT_40=16'b011000000011111...
+Compiling module xil_defaultlib.xadc_wiz_1
+Compiling module xil_defaultlib.averager(power=12,N=16)
+Compiling module xil_defaultlib.ADC_Subsystem
+Compiling module xil_defaultlib.mux4_16_bits
+Compiling module xil_defaultlib.digit_multiplexor
+Compiling module xil_defaultlib.seven_segment_digit_selector
+Compiling module xil_defaultlib.seven_segment_decoder
+Compiling module xil_defaultlib.seven_segment_display_subsystem
+Compiling module xil_defaultlib.lab_5_top_level_students
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_5_top_level_students_behav
